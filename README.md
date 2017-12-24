@@ -12,5 +12,8 @@
 - 词义分析
 - 语义分析
 
+### NLP学习资源
+https://pan.baidu.com/s/1c1QmoIO
+
 
 
