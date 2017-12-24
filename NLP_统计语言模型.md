@@ -111,7 +111,7 @@ NLP中，人们基于一定的语料库，可以利用Ngram来预计或者评估
 - 计算转移概率
 因为马尔科夫链中每个状态只与前一个状态相关，所以我们在看到一个马尔科夫链时，可以根据统计的方式来计算概率，比如说P(st+1|st)，如果计算这个概率我们只需要统计st出现的次数nt，以及从st转换到st+1的次数nt,t+1，最终的结果为 
 
-		P(st+1|st)=ntnt,t+1
+		P(st+1|st)=nt/nt,t+1
 - 隐含马尔科夫模型
 隐含马尔科夫模型是马尔科夫模型的拓展，即任意时刻的状态是不可观测的。所以我们无法直接观测一个马尔科夫链，以及根据根据马尔科夫链计算后续的转移概率。但是隐含马尔科夫模型在任意时刻会输出一个状态ot，且这个状态只与st相关，这个被称为独立输出假设
 ![这里写图片描述](http://img.blog.csdn.net/20171224142448889?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQV94aWxpeGlhb2d1aQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
